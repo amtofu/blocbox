@@ -1,0 +1,130 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
+	color:#374158;
+}
+
+h1 {
+	font-size: 46px;
+	font-weight: 300;
+	letter-spacing: 1.31px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 0.8px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0.57px;
+	text-align: center;
+
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.8px;
+	line-height: 23px;
+}
+
+a {
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+.container-hero h1, .container-hero p, .container-hero a {
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+
+header {
+	height: 536px;
+	background-image: url("../images/homepage hero.png");
+	background-size: 1440px;
+	background-repeat: no-repeat;
+}
+
+.features {
+	height: 725px;
+	background-image: url("../images/homepage bg2.png");
+	background-size: 1440px;
+	background-repeat: no-repeat;
+}
+
+.features h1, .features h2, .features p {
+	color:#FFFFFF;
+}
+
+.features h2 {
+	font-size: 24px;
+}
+
+.pricing {
+	background-color: #374158;
+}
+
+.pricing h1, .pricing h2, .pricing h3 {
+	color: #FFFFFF;
+}
+
+.middle-footer-block a {
+	color:#374158;
+	font-weight: 300;
+	font-size: 16;
+	text-transform: none;
+}
+
+.footer-nav-block {
+	font-family: OpenSans-Light;
+	font-size: 16px;
+	color: #374158;
+	letter-spacing: 0.8px;
+	line-height: 23px;
+}
+
+/* GRID */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.container:before, 
+.container:after {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.one-half, .one-third, .one-fourth {
+	width: 96%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
+
+
